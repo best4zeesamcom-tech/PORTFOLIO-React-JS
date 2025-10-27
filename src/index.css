@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
-    --main-color:#df7000; 
+    --main-color:#ff870d; 
     --white:#ff7678; 
     --text-color:#FFF;
     --bg-color:#080808;
@@ -39,7 +39,7 @@ body{
     left: 0;
     right: 0;
     z-index: 100;
-    background-color: var(--bg-color);
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -162,10 +162,12 @@ section{
 }
 .home img{
     border-radius: 50%;
-    height: 50rem;
-    width: 50rem;
+    height: 47rem;
+    width: 47rem;
     object-fit: cover;
-    box-shadow: 0 0 2.5rem var(--main-color);
+    box-shadow: 0 0 2.5rem var(--main-color),
+                0 0 5rem var(--main-color),
+                0 0 10rem var(--main-color);
 }
 .home img:hover{
     box-shadow: 0 0 2.5rem var(--main-color),
