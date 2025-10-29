@@ -1,9 +1,10 @@
 import React from "react";
-import boy1 from "../images/boy.png";
-
+import boy1 from "../images/avatar.png";
+import useScrollAnimation from "./useScrollAnimation";
 function Home() {
+   useScrollAnimation();
   return (
-    <section className="home" id="Home">
+    <section className="home animate delay-1" id="Home">
       <div className="content">
         <h1>
           hi, it's <span>Smith</span>
